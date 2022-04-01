@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="org.nodejs.node.pkg" postinstall-action="none" version="v16.14.2" format-version="2" generator-version="InstallCmds-761 (20A2411)" auth="root">
+    <payload numberOfFiles="1010" installKBytes="157902"/>
+    <bundle-version/>
+    <upgrade-bundle/>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier/>
+    <relocate/>
+</pkg-info>

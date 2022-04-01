@@ -1,0 +1,36 @@
+.elements{
+    display: grid;
+   grid-gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: 2fr;
+}
+.person{
+background-color: aqua; 
+ font-weight: bold ;
+  font-family: cursive;
+  padding: 15% 0;
+  border: 8px;
+} 
+.cat{
+background-color: rgb(235, 115, 115);
+font-weight: bold;
+font-family: cursive;
+padding: 15% 0;
+border: 8px rgb(95, 40, 0);
+text-align: center;
+
+}
+.dog{
+background-color: blue;
+font-weight: bold ;
+font-family: cursive;
+padding: 15% 0;
+border: 8px;
+}
+.mouse{
+background-color: brown;
+font-weight: bold ;
+font-family: cursive;
+padding: 15% 0;
+border: 8px;
+}

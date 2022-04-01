@@ -1,0 +1,243 @@
+body{
+  
+}
+ .nav{
+    box-shadow:#333;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: cursive;
+    box-shadow: #333;
+  }
+  li .snowball{
+      font-size:xx-large;
+      font-weight:bolder;
+  }
+  
+  li {
+    float:left;
+  }
+  li {
+    border-left: 1px solid #bbb;
+    
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover  {
+    background-color: #111;
+  }
+
+h1{
+    display: inline-block;
+    text-align:left;
+    margin-left: 12%;
+    font-weight: 700px;
+    font-size: xx-large;
+    font-style: oblique;
+    margin-top: 140px; 
+    
+ 
+ 
+}
+#maincontainer{ 
+   
+   
+    display: flex;
+    flex-wrap:wrap;
+ 
+    
+   margin-left: 180px;
+   margin-right: 180px;
+    margin-top: 100px; 
+ padding: 8px;
+
+}
+
+
+
+#container a:hover
+      {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  
+   height: 250px;
+   width: 250px;
+
+  
+    
+    margin: 64px 64px 64px 64px;
+   
+    
+
+}
+p{
+    padding: 4rem;
+    text-align: center;
+    font-size:larger;
+    font-weight: 200;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+header{ 
+   
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;  
+   
+  
+}
+article{ 
+ 
+    display: block;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+/* fix link style*/
+.articletitle a:visited{
+    color:purple;
+}
+.articletitle a{
+    text-decoration: none;
+}
+.articletitle a:link{
+    color: #111;
+}
+
+.blog1{ 
+    background-image: url("dog.jpg");
+        display: block;
+       width: 250px;
+       background-repeat: no-repeat;
+       background-position: center center;
+     
+  
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+    height: 250px;
+    width: 250px;
+        float: left;
+        -ms-transform: rotate(7deg); 
+        -webkit-transform: rotate(7deg); 
+        transform: rotate(7deg);
+    
+}
+
+
+.blog2{ 
+    width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+    float: left;
+    -ms-transform: rotate(-8deg); 
+    -webkit-transform: rotate(-8deg); 
+    transform: rotate(-8deg);
+    height: 250px;
+    width: 250px;
+   
+}
+.blog3{
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+        float: left;
+        -ms-transform: rotate(7deg); /* IE 9 */
+        -webkit-transform: rotate(7deg); /* Safari */
+        transform: rotate(7deg);
+      
+   
+      
+        height: 250px;
+        width: 250px;
+}
+.blog4{
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+    
+    height: 250px;
+    width: 250px;
+   
+   
+}
+.blog5 {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+ 
+    height: 250px;
+    width: 250px;
+}
+.blog6{
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+    
+    height: 250px;
+    width: 250px;
+}
+#form{
+    text-align: center;
+  
+}
+.poll{
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+#chicken{
+        
+    }
